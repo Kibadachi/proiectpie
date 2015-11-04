@@ -4,7 +4,7 @@
 -- SO server:                    Win64
 -- HeidiSQL Versiune:            9.1.0.4867
 -- --------------------------------------------------------
-
+-- testing commit , sabin
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
@@ -71,6 +71,7 @@ CREATE TABLE IF NOT EXISTS `produse` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `denumire` varchar(50) NOT NULL DEFAULT '0',
   `cantitate_implicita` int(11) NOT NULL DEFAULT '0',
+  `tip` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
